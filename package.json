@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-assignment",
+  "version": "1.0.0",
+  "description": "Assignment of Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vicky nehra",
+  "license": "ISC",
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.10.1",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
